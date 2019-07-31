@@ -543,7 +543,7 @@ class PhaseDiagramPlugin(p.SingletonPlugin):
           'title': 'Solar Cell Phase & Defect Formation Energy',
           'view_type': 'semiconductor_stability_phase_diagram_view_llnl_smc'
         }
-    tk.get_action('resource_view_create')(context, data_dict)
+        tk.get_action('resource_view_create')(context, data_dict)
 
   # IActions
   def get_actions(self):
